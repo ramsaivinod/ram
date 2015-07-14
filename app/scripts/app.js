@@ -24,7 +24,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/menu', {
-        templateUrl: 'views/menu.html',
+        templateUrl: 'views/hotel_menu.html',
         controller: 'MenuCtrl'
         })
       .when('/about', {
