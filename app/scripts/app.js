@@ -10,12 +10,13 @@
  */
 angular
   .module('myDashboardApp', [
-    'ngAnimate',
+
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
